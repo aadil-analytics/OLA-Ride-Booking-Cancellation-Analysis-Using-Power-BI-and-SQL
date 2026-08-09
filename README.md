@@ -10,7 +10,6 @@ The project combines:
 
 - **SQL** → Business-question-driven data analysis
 - **Power BI** → Interactive dashboards and visual storytelling
-- **Excel** → Source/raw dataset
 
 ---
 
@@ -39,7 +38,6 @@ The analysis focuses on answering questions such as:
 | **Power BI** | Interactive dashboards and visualization |
 | **Power Query** | Data cleaning and transformation |
 | **DAX** | Measures and KPI calculations |
-| **Excel** | Raw dataset |
 
 ---
 
@@ -48,13 +46,13 @@ The analysis focuses on answering questions such as:
 ```text
 OLA-Ride-Booking-Analysis/
 │
-├── data/
-│   └── Bookings-100000-Rows.xlsx
+├── Raw Data/
+│   └── Raw Data.xlsx
 │
-├── sql/
+├── Sql/
 │   └── ola sql project.sql
 │
-├── powerbi/
+├── Power BI/
 │   └── OLA_Ride_Analysis.pbix
 │
 ├── dashboard/
